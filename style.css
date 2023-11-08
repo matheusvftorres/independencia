@@ -1,0 +1,120 @@
+html {
+    font-family: 'Dancing Script', cursive;
+    background-image: url(fundo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+  
+  
+  }
+  
+  header {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+  
+  h1 {
+    font-size: 80px;
+    margin-bottom: 200px;
+  
+  }
+  
+  p {
+    font-size: 32px;
+  }
+  
+  h2 {
+    font-size: 45px;
+
+  
+  }
+
+
+ 
+  h3 {
+    margin-top: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  
+  
+  .mini {
+    display: flex;
+    flex-direction: column;
+    width: 750px;
+    align-items: center;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    justify-content: space-around;
+    margin-bottom: 80px;
+  }
+  
+  .independencia {
+    width: 750px;
+    height: 520px;
+  }
+  
+  .dom {
+    width: 700px;
+    height: 500px;
+  }
+  
+  .brasil {
+    height: 400px;
+    width: 700px;
+  }
+  
+  
+  
+  .gp {
+    height: 500px;
+    width: 500px;
+  }
+
+  nav{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 8vh;
+    align-items: center;
+    
+    
+  }
+
+ a {
+    color: black;
+      text-decoration: none; /* Remova a sublinhado do link */
+      transition: color 0.3s; /* Adicione uma transição suave para a mudança de cor */
+ }
+
+ .video{
+    display: flex;
+    justify-content: center;
+ }
+
+ a:hover {
+    color: green;
+  }
+
+  
+  .nav2{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 20vh;
+    align-items: center;
+  }
+
+  .logo{
+    height: 140px;
+  }
+
+.prim:hover{
+    color: aqua;
+}
